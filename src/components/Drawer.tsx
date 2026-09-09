@@ -39,10 +39,10 @@ export default function Drawer() {
 
           {/* Nav links */}
           {[
-            { label: "Shop", to: "/" },
+            { label: "Shop", to: "/en-ng/collections/apparels" },
             { label: "About Us", to: "/about" },
             { label: "Contact Us", to: "/contact" },
-            { label: "For Women", to: "/for-women" },
+            { label: "For Women", to: "/en-ng/collections/collection-9-womens" },
           ].map((link) => (
             <a
               key={link.label}
