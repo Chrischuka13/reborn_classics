@@ -130,7 +130,7 @@ export const fetchProductsBySection = async (section?: string): Promise<Product[
 
 // Fetch products by category
 export const fetchProductByCategory = async (categoryName?: string): Promise<Product[]> => {
-  const response = await fetch(`${BASE_URL}/products?category=${encodeURIComponent(categoryName)}`);
+  const response = await fetch(`${BASE_URL}/products?category=${encodeURIComponent(categoryName || '')}`);
   if (!response.ok) {
     throw new Error('Failed to fetch products');
   }

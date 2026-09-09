@@ -8,7 +8,7 @@ type Props = {
   width?: string;
   height?: string;
   className?: string;
-  loading?: string;
+  loading?: "lazy" | "eager";
   onContextMenu?: React.MouseEventHandler<HTMLImageElement>;
   onDragStart?: React.MouseEventHandler<HTMLImageElement>;
 };
