@@ -40,7 +40,7 @@ const ProductCard: React.FC<{ product: Product}> = ({ product }) => {
       </div>
 
       {/* Product Details */}
-      <div className="flex flex-col pt-2.5 font-['room',sans-serif]">
+      <div className="flex flex-col pt-2.5">
         <Link to={productUrl} className="">
           <h3 className="text-[1.25rem] leading-relaxed tracking-tight text-foreground ">
             {product.title}

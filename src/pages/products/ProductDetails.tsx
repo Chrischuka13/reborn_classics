@@ -440,7 +440,7 @@ const ProductDetails: React.FC = () => {
   return (
     <main>
       <section className="w-11/12 container mx-auto py-24">
-        <div className="lg:grid grid-cols-2 gap-10 relative font-['room',sans-serif]">
+        <div className="lg:grid grid-cols-2 gap-10 relative">
           {/* Gallery Sub-Component */}
           <ProductGallery images={galleryImages} title={product.title} />
 

@@ -119,7 +119,7 @@ export const CollectionsPage: React.FC = () => {
   }
 
   return (
-    <div className="w-11/12 mx-auto py-16 md:py-24 font-['room',sans-serif]">
+    <div className="w-11/12 mx-auto py-16 md:py-24">
       <h1 className="text-3xl tracking-tight text-gray-900 mb-8 text-center md:text-left">
         Shop by Collections
       </h1>

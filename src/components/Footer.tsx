@@ -36,7 +36,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#0e0e0e] pt-16 text-white/75 font-['room',sans-serif] text-base overflow-hidden">
+    <footer className="bg-[#0e0e0e] pt-16 text-white/75 text-base overflow-hidden">
       <div className="max-w-300 mx-auto px-8 grid grid-cols-1 md:grid-cols-[1.5fr_1fr_1fr_1.2fr] gap-x-8 gap-y-12">
         {/* Brand Column */}
         <div className="flex flex-col gap-4">

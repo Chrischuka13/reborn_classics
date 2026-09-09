@@ -12,7 +12,7 @@ const ContactPage = () => {
   };
 
   return (
-    <section className="min-h-screen bg-[#f8f5f0] py-20 px-6 font-['room',sans-serif] text-[#36454f]">
+    <section className="min-h-screen bg-[#f8f5f0] py-20 px-6 text-[#36454f]">
       <div className="max-w-5xl mx-auto py-12">
         <header className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl mb-4 tracking-tight uppercase">Contact Reborn</h1>
