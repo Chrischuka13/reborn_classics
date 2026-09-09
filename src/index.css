@@ -19,18 +19,19 @@
 }
 
 @font-face {
-    font-family: "Room-Medium";
-    src: url("https://db.onlinewebfonts.com/t/75d3c790abf9bc43da1b0d15b1241023.eot");
-    src: url("https://db.onlinewebfonts.com/t/75d3c790abf9bc43da1b0d15b1241023.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/75d3c790abf9bc43da1b0d15b1241023.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/75d3c790abf9bc43da1b0d15b1241023.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/75d3c790abf9bc43da1b0d15b1241023.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/75d3c790abf9bc43da1b0d15b1241023.svg#Room-Medium")format("svg");
+  font-family: "Room-Medium";
+  src: url("/fonts/Room-Medium.woff2") format("woff2"),
+       url("/fonts/Room-Medium.woff") format("woff"),
+       url("/fonts/Room-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
-    font-family: "Room-Medium", sans-serif;
+  font-family: "Room-Medium", sans-serif;
 }
+
 
 @keyframes l19 {
    0% {text-shadow: 
